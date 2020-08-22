@@ -4,3 +4,6 @@ It is designed using Socket Programming. The server application of the program i
 Before running the program, you need to edit the ports, ip and path according to your own server.
 The server application must be run before running the client.
 In this way, you can run the client anywhere as long as you access the server. At the same time, your notes are stored on your server.
+
+# About Socket Programming
+Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while other socket reaches out to the other to form a connection. Server forms the listener socket while client reaches out to the server.
